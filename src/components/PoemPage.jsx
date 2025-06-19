@@ -1,4 +1,5 @@
 import React from 'react'
+import poemImage from '../assets/poem.png'
 
 function PoemPage() {
   return (
@@ -18,7 +19,7 @@ function PoemPage() {
             <div className="relative bg-gradient-to-br from-amber-100 to-orange-100 p-8">
               <div className="flex justify-center">
                 <img 
-                  src="/poem.png"
+                  src={poemImage}
                   alt="Young boy smiling"
                   className="w-64 h-64 object-cover rounded-2xl shadow-lg border-4 border-white"
                 />
